@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/public/img/familyvacation.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.logo{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+span{
+  color: white
+
+}
+.btn{
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 15px 40x;
+  font-size: 14px;
+  border-radius: 30px;
+
+
+}
+.nav{
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text h1{
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.text p{
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 30px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.btnone{
+  margin: 0px 10px;
+  border: 2px solid #ffffff;
+  padding: 13px 35px;
+  letter-spacing: 1px;
+  color: #000;
+  border-radius: 30px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.btnone:hover{
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color:yellowgreen;
+  transition: 0.5s;
+  cursor:pointer;
+}
+
